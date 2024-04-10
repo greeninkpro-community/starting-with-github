@@ -57,7 +57,7 @@ To complete the assignment, here's a step-by-step guide:
 9. **Pushing changes and raising a Pull Request:**
    - merge tech branch and develop branch(google and find out!)
    - Once merged push the changes to the main repo.
-   - Open a Pull Request from your `develop` branch to the main branch of the original repository.
+   - Open a Pull Request from your `develop` branch to the `main` branch of the original repository.
    - Give your Pull Request a meaningful title and description, then submit it.
 
 10. **Merging changes:**
