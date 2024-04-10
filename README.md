@@ -33,21 +33,23 @@
 5. **Adding SSH key to your GitHub account:** 🚪
    - Follow the steps [here](https://docs.github.com/en/enterprise-server@3.1/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add your SSH public key to your GitHub account.
 
-6. **Cloning the repository:** 📥
-   - Fork the repository [starting-with-github](https://github.com/greeninkpro-community/starting-with-github) to your GitHub account.
-   - Clone the forked repository to your local machine using either SSH or HTTPS option. For SSH, use `git clone git@github.com:greeninkpro-community/starting-with-github.git` and for HTTPS, use `git clone https://github.com/greeninkpro-community/starting-with-github.git`.
+6. **Fork and cloning the repository:** 📥
+   - Fork the repository [starting-with-github](https://github.com/greeninkpro-community/starting-with-github) to your GitHub account like (`starting-with-github-<username>`).
+   - Clone the forked repository to your local machine using either SSH or HTTPS option. For SSH, use `git clone git@github.com:<username>/starting-with-github.git` and for HTTPS, use `git clone https://github.com/<username>/starting-with-github.git`.
+   
 
 7. **Working on the assignment:** 📝
-   - Change directory into the cloned repository folder (`cd starting-with-github`).
+   - Change directory into the cloned repository folder (`cd starting-with-github-<username>`).
+   - Initialise the repo with `git init`.
    - Create a new branch called `develop` with `git checkout -b develop`.
    - Create a directory with your full name inside the root of the app (e.g., `steve_jobs`) and change directory into it.
-   - Create another directory inside your book app directory called `things_i_will_learn`.
+   - Create another directory inside your directory above created called `things_i_will_learn`.
    - Inside the `things_i_will_learn` directory, create two text files: `tech.txt` and add whatever things you wish to learn then commit the file.
-   - Now create an file `habit.txt`, and add whatever things you want do habitually into them.
+   - Now create another file `habit.txt`, and add whatever things you want do habitually into them.
    - Stage and commit your changes.
 
 8. **Managing branches and commits:** 🔄
-   - If you mistakenly staged the `tech.txt`, you can unstage it with `git reset HEAD tech.txt`.
+   - But now you remember to add more tech stacks unstage the `tech.txt`, you can unstage it with `git reset HEAD tech.txt`.
    - Checkout to the `main` branch (`git checkout main`), then create a new branch called `tech` (`git checkout -b tech`).
    - Make the specified changes to `tech.txt` and commit them to the `tech` branch.
    - Merge the `tech` branch into the `develop` branch:
