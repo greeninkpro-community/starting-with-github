@@ -1,4 +1,4 @@
-#Starting-with-github
+# Starting-with-github
 
 1. **Check if Git is installed:** 🛠️
    - Open your terminal and type `git --version`. If it returns a git version, then Git is installed. If not, download and install Git from [here](https://git-scm.com/downloads).
