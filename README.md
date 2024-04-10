@@ -35,13 +35,13 @@ To complete the assignment, here's a step-by-step guide:
    - Follow the steps [here](https://docs.github.com/en/enterprise-server@3.1/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add your SSH public key to your GitHub account.
 
 6. **Cloning the repository:**
-   - Fork the repository [Github-Enablment-Task](https://github.com/greeninkpro-community/starting-with-github) to your GitHub account.
+   - Fork the repository [starting-with-github](https://github.com/greeninkpro-community/starting-with-github) to your GitHub account.
    - Clone the forked repository to your local machine using either SSH or HTTPS option. For SSH, use `git clone git@github.com:greeninkpro-community/starting-with-github.git` and for HTTPS, use `git clone https://github.com/greeninkpro-community/starting-with-github.git`.
 
 7. **Working on the assignment:**
    - Change directory into the cloned repository folder (`cd starting-with-github`).
    - Create a new branch called `develop` with `git checkout -b develop`.
-   - Create a directory with your full name inside the root of the app (e.g., `greenink_intern`) and change directory into it.
+   - Create a directory with your full name inside the root of the app (e.g., `steve_jobs`) and change directory into it.
    - Create another directory inside your book app directory called `things_i_will_learn`.
    - Inside the `things_i_will_learn` directory, create two text files: `tech.txt` and add whatever things you wish to learn then commit the file.
    - Now create an file `habit.txt`, and add whatever things you want do habitually into them.
@@ -50,12 +50,12 @@ To complete the assignment, here's a step-by-step guide:
 8. **Managing branches and commits:**
    - But here comes you wish to add one more skill but the file has been commited! unstage the `tech.txt`, you can unstage it with `git reset HEAD tech.txt`.
    - Checkout to the `main` branch (`git checkout main`), then create a new branch called `tech` (`git checkout -b tech`).
-   - Make the specified changes to `list_all_books.txt` and commit them to tech branch.
+   - Make the specified changes to `tech.txt` and commit them to `tech` branch.
    - Check the log to see the changes you've made so far (`git log`).
    - Commit your changes.
 
 9. **Pushing changes and raising a Pull Request:**
-   - merge tech branch and develop branch(google and find out!)
+   - merge `tech` branch and `develop` branch(google and find out!)
    - Once merged push the changes to the main repo.
    - Open a Pull Request from your `develop` branch to the `main` branch of the original repository.
    - Give your Pull Request a meaningful title and description, then submit it.
