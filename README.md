@@ -49,7 +49,7 @@
    - Stage and commit your changes.
 
 8. **Managing branches and commits:** 🔄
-   - But now you remember to add more tech stacks unstage the `tech.txt`, you can unstage it with `git reset HEAD~1`.
+   - But now you remember to add more tech stacks unstage the `tech.txt`, you can unstage it with `git reset HEAD <filename>`.
    - Checkout to the `main` branch (`git checkout main`), then create a new branch called `tech` (`git checkout -b tech`).
    - Make the specified changes to `tech.txt` and commit them to the `tech` branch.
    - Merge the `tech` branch into the `develop` branch:
