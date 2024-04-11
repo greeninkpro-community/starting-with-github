@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+python,c,sql
+=======
+cloude networking,hacking
+>>>>>>> tech
